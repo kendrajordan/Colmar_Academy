@@ -1,0 +1,230 @@
+html,body{
+  font-size: 8px;
+  margin:0;
+  padding:0;
+}
+/*Header*/
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:8rem;
+  padding-right: 3rem;
+  padding-left:3rem;
+  max-width:100%;
+  font-size: 3rem;
+}
+header .Ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+header .workSans{
+  font-family: 'Work Sans',sans-serif;
+  color:grey;
+}
+/*Logo*/
+.logo{
+  display:flex;
+  font-size: 4rem;
+  align-self: center;
+}
+/*Sign-in*/
+nav ul li{
+  display: flex;
+  display: inline-block;
+  justify-content: space-between;
+}
+nav ul .spacing li{
+  margin-right:2rem;
+}
+/*Banner*/
+.banner{
+  display:flex;
+  align-items: center;
+  background-color: #CCD1D1;
+  max-width: 100%;
+}
+.banner .image-container{
+  width: 60%;
+  margin: 4rem 3rem;
+}
+.banner .image-container img {
+  max-width: 100%;
+}
+.banner .content-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width:30%;
+margin-bottom: 4rem;
+}
+.banner .content-container h2{
+  font-size:5.5rem;
+  font-weight:bold;
+}
+.banner .content-container h3{
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.start{
+align-self: center;
+display: block;
+color: white;
+background-color: #424949;
+padding-top: 1rem;
+padding-bottom: 1rem;
+font-size: 3rem;
+width: 100%;
+text-align: center;
+}
+/*News section*/
+.news-container,.thesisContent-container{
+  flex-direction: row;
+  justify-content: center;
+  max-width:100%;
+  display: inline-flex;
+
+}
+.article,.video-container{
+  display:flex;
+  flex-direction: column;
+  font-size: 2rem;
+  max-width: 60%;
+  margin:4rem 3rem;
+}
+.article .image-container,.article .image-container img,.video-container video{
+  max-width: 100%;
+}
+
+.column-container{
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E8E8;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  border-left:0.125rem solid #808080;
+}
+.thumbnail{
+  max-width: 100%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding:2rem;
+  font-size: 2rem;
+}
+ .thumbnail.orientation{
+  border-bottom: .5rem solid #808080;
+}
+.thumbnail .description{
+  max-width: 65%;
+}
+.thumbnail.shade{
+  background-color: #B2BABB;
+}
+.description .spacing{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.image-box {
+display: inline-block;
+max-width: 35%;
+height:auto;
+margin-right: 2rem;
+}
+.image-box img{
+  max-width: 100%;
+}
+/*Cources section*/
+.courses-container{
+  max-width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  background-color: #B2BABB;
+}
+.courses-container h2,.thesis-container h2{
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+  margin-top:4rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.courseimage-container{
+  height:auto;
+  max-width:100%;
+}
+.classes-container{
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.class-content{
+  font-size:2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  max-width: 100%;
+
+}
+.course-header{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.class{
+  display:flex;
+  display: block;
+  flex-direction: column;
+  background-color: white;
+  border:1px solid black;
+  margin-right:4rem;
+  margin-bottom:3rem;
+  width: 40rem;
+}
+.class img{
+  width: 100%;
+}
+/*Thesis*/
+.thesisContent-container .column-container{
+  padding-top: 0;
+  border-left: none;
+}
+.thesisContent-container .video-container{
+margin: 0 3rem;
+}
+.video-container .videoContent-Container{
+  margin-top:3rem;
+  margin-bottom:3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: : flex-start;
+}
+.videoContent-Container h3{
+  margin-bottom:1rem;
+}
+/*footer*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left:3rem;
+  padding-top:2rem;
+  padding-bottom:4rem;
+  max-width: 100%;
+  border-top: 0.125rem solid grey;
+
+}
