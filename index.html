@@ -2,7 +2,7 @@
   <head>
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
     <link href="resources/css/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Work+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Hind|Ubuntu:400,700|Work+Sans:400,700" rel="stylesheet">
     <title>Colmar Academy</title>
   </head>
     <body>
@@ -10,21 +10,28 @@
         <div class="logo">
           <object data="resources/images/ic-logo.svg" type="image/svg+xml"></object><span class="Ubuntu">COLMAR</span><span class="workSans">ACADEMY</span>
         </div>
-        <nav>
-          <ul>
+        <nav >
+          <ul class="desktop-nav">
             <span class="spacing"><li>On Campus</li></span>
             <span class="spacing"><li>Online</li></span>
             <span class="spacing"><li>or Companies</li></span>
             <li>Sign in</li>
           </ul>
+          <ul class="mobile-header">
+            <li><object data="resources/images/ic-logo.svg" type="image/svg+xml"></object></li>
+            <li><object data="resources/images/ic-on-campus.svg" type="image/svg+xml"></object></li>
+            <li><object data="resources/images/ic-online.svg" type="image/svg+xml"></object></li>
+            <li><object data="resources/images/ic-login.svg"type="image/svg+xml"></object></li>
+            </ul>
         </nav>
+
       </header>
       <div class="banner">
         <div class="image-container">
         <img src="resources/images/banner.jpg" alt="banner"/>
         </div>
         <div class="content-container">
-          <h2>Learn something new everyday</h2>
+          <h1 class="main-header">Learn something new everyday</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <div class="start">Start here</div>
         </div>
@@ -34,48 +41,59 @@
           <div class="image-container">
             <img src="resources/images/information-main.jpg" alt="Man reading a book"/>
           </div>
-          <h2>It doesn't hurt to keep practicing</h2>
+            <div class="article-content">
+          <h1 class="main-header">It doesn't hurt to keep practicing</h1>
           <h3>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
             nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
             eget magna laoreet, effecitur dolor consequat,tristique ligula."</h3>
             <h4>Emanuel,Sr Strategist at Hiring.com</h4>
+          </div>
         </div>
             <div class="column-container">
               <div class="thumbnail orientation">
                 <div class="image-box">
-                  <img src="resources/images/information-orientation.jpg" alt="orientation" />
+                  <img class="desktop-image" src="resources/images/information-orientation.jpg" alt="orientation" />
+                </div>
+                <div class="mobileImage-box">
+                  <img class="mobile-image" src="resources/images/information-orientation-mobile.jpg" alt="orientation" />
                 </div>
                 <div class="description">
                   <h3>Orientation date</h3>
                   <h4 class="spacing">Tue 10/11 & Wed 10/12: 8am-3pm</h4>
-                  <h4><a href="*">Read more</a></h4>
+                  <h4><a href="#">Read more</a></h4>
                 </div>
               </div>
               <div class="thumbnail">
                 <div class="image-box">
-                  <img src="resources/images/information-campus.jpg" alt="campus" />
+                  <img class="desktop-image" src="resources/images/information-campus.jpg" alt="campus" />
+                </div>
+                <div class="mobileImage-box">
+                  <img class="mobile-image" src="resources/images/information-campus-mobile.jpg" alt="campus"/>
                 </div>
                 <div class="description">
                   <h3>Our campus</h3>
                   <h4 class="spacing">Find which campus is close by you</h4>
-                  <h4><a href="*">Read more</a></h4>
+                  <h4><a href="#">Read more</a></h4>
                 </div>
               </div>
-              <div class="thumbnail shade">
+              <div class="thumbnail thumbnail-shade">
                 <div class="image-box">
-                  <img src="resources/images/information-guest-lecture.jpg" alt="guest speaker" />
+                  <img class="desktop-image" src="resources/images/information-guest-lecture.jpg" alt="guest speaker" />
+                </div>
+                <div class="mobileImage-box">
+                  <img class="mobile-image" src="resources/images/information-guest-lecture-mobile.jpg" alt="guest speaker" />
                 </div>
                 <div class="description">
                   <h3>Our guest lecture</h3>
                   <h4 class="spacing">Join a keynote with Oliver Sack
                   about music in medical treatment</h4>
-                  <h4><a href="*">Read more</a></h4>
+                  <h4><a href="#">Read more</a></h4>
                 </div>
               </div>
             </div>
             </div>
             <div class="courses-container">
-              <h2>Start Learning</h2>
+              <h1 class="main-header">Start Learning</h1>
               <div class="classes-container">
                 <div class="class">
                     <div class="courseimage-container">
@@ -138,9 +156,29 @@
                   </div>
                 </div>
               </div>
+              <div class="mobileClass-container">
+                <div class="mobile-class">
+                  <h2>Software engineering</h2>
+                </div>
+                <div class="mobile-class">
+                  <h2>Computer art</h2>
+                </div>
+                <div class="mobile-class">
+                  <h2>Design</h2>
+                </div>
+                <div class="mobile-class">
+                  <h2>Data</h2>
+                </div>
+                <div class="mobile-class">
+                  <h2>Business</h2>
+                </div>
+                <div class="mobile-class">
+                  <h2>Marketing</h2>
+                </div>
+              </div>
             </div>
             <div class="thesis-container">
-              <h2>Thesis Exhibit</h2>
+              <h1 class="main-header">Thesis Exhibit</h1>
               <div class="thesisContent-container">
               <div class="video-container">
                 <video src="resources/videos/thesis.mp4"  type="video/mp4" controls>Video not supported</video>
@@ -152,9 +190,9 @@
                 </div>
               </div>
               <div class="column-container">
-                <div class="thumbnail shade">
+                <div class="thumbnail thumbnail-shade">
                   <div class="image-box">
-                    <img src="resources/images/thesis-fisma.jpg" alt="Smartphone with papers" />
+                    <img class="desktop-image"src="resources/images/thesis-fisma.jpg" alt="Smartphone with papers" />
                   </div>
                   <div class="description">
                     <h3>Fisma: Design and Prototype</h3>
@@ -163,7 +201,7 @@
                 </div>
                   <div class="thumbnail">
                     <div class="image-box">
-                      <img src="resources/images/thesis-now-and-then.jpg" alt="Sky scrapper" />
+                      <img class="desktop-image" src="resources/images/thesis-now-and-then.jpg" alt="Sky scrapper" />
                     </div>
                     <div class="description">
                       <h3>Now and then</h3>
