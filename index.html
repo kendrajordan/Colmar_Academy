@@ -2,7 +2,9 @@
   <head>
     <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
     <link href="resources/css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Hind|Ubuntu:400,700|Work+Sans:400,700" rel="stylesheet">
+    <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
     <title>Colmar Academy</title>
   </head>
     <body>
@@ -33,7 +35,12 @@
         <div class="content-container">
           <h1 class="main-header">Learn something new everyday</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <div class="start">Start here</div>
+          <a class="start" href="#" role="button">
+            <span>Start here</span>
+            <div class="icon">
+            <i class="fa fa-arrow-circle-right"></i>
+            </div>
+          </a>
         </div>
       </div>
       <div class="news-container">
@@ -181,7 +188,7 @@
               <h1 class="main-header">Thesis Exhibit</h1>
               <div class="thesisContent-container">
               <div class="video-container">
-                <video src="resources/videos/thesis.mp4"  type="video/mp4" controls>Video not supported</video>
+                <video src="resources/videos/thesis.mp4"  type="video/mp4" controls poster="resources/images/poster.jpg">Video not supported</video>
                 <div class="videoContent-Container">
                   <h3>Reimagine urban</h3>
                   <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo
