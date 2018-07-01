@@ -44,7 +44,6 @@ header .workSans{
   justify-content: space-between;
   font-family: 'Hind', sans-serif;
   font-weight: bold;
-
 }
 .desktop-nav .spacing li{
   margin-right:2rem;
@@ -56,13 +55,14 @@ header .workSans{
 }
 .desktop-nav li:hover{
   background-color:#8F7A62;
+  color:#B7AA9B;
 }
 @media only screen and (max-width:480px){
-header{
-  height: 6rem;
-  padding: 0 3rem;
-  max-width: 100%;
-}
+  header{
+    height: 6rem;
+    padding: 0 3rem;
+    max-width: 100%;
+  }
   .logo, .desktop-nav{
     display: none;
   }
@@ -79,7 +79,6 @@ header{
     justify-content: center;
     align-items: center;
   }
-
   .mobile-header li:hover{
     background-color: #8F7A62;
   }
@@ -100,15 +99,14 @@ header{
   max-width: 100%;
 }
 .banner .content-container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-width:30%;
-margin-bottom: 4rem;
-color:#2D6372;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width:30%;
+  margin-bottom: 4rem;
+  color:#2D6372;
 }
-
 .banner .content-container h3{
   font-size: 3rem;
   margin-top: 2rem;
@@ -117,26 +115,25 @@ color:#2D6372;
 }
 /*Start button*/
 a.start{
-text-decoration: none;
-position:relative;
-display:block;
-color: white;
-background-color: #063B4A;
-font-size: 3rem;
-height:15%;
-width:100%;
-overflow: hidden;
-font-family: 'Ubuntu', sans-serif;
-border-radius: 0.625rem;
+  text-decoration: none;
+  position:relative;
+  display:block;
+  color: white;
+  background-color: #063B4A;
+  font-size: 3rem;
+  height:15%;
+  width:100%;
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 0.625rem;
 }
 .start span ,.start .icon{
-position: absolute;
-display:block;
-height:100%;
-width: 100%;
-text-align: center;
-text-decoration: none;
-
+  position: absolute;
+  display:block;
+  height:100%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
 }
 .start span{
   width:72%;
@@ -150,10 +147,10 @@ text-decoration: none;
 }
 .start .icon{
   right:0;
-   width:28%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  width:28%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .start .icon .fa{
   font-size:3rem;
@@ -212,7 +209,6 @@ text-decoration: none;
 }
 .news-container{
   background-color: #794740;
-
 }
 .article,.video-container{
   display:flex;
@@ -221,7 +217,6 @@ text-decoration: none;
   max-width: 60%;
   margin:4rem 3rem;
 }
-
 .article .image-container,.article .image-container img,.video-container video{
   max-width: 100%;
 }
@@ -306,8 +301,8 @@ box-shadow: 1rem 1rem 1rem #4E4336;
     padding-left:2rem;
     padding-right:2rem;
   }
- .image-box{
-   display:none;
+  .image-box{
+    display:none;
   }
   .desktop-image{
     display:none;
@@ -316,20 +311,19 @@ box-shadow: 1rem 1rem 1rem #4E4336;
   display:contents;
   height:35%;
   max-width: 90%;
-
  }
  .mobile-image{
    max-width: 100%;
    margin-bottom:2rem;
    box-shadow: 1.5rem 1.5rem 1.5rem #37211E;
  }
-.thumbnail .description{
-  width: 100%;
-  margin-bottom: 8rem;
-}
-.thumbnail-shade{
-  background-color: #8F7A62;
-}
+ .thumbnail .description{
+   width: 100%;
+   margin-bottom: 8rem;
+ }
+  .thumbnail-shade{
+    background-color: #8F7A62;
+  }
 }
 /*Cources section and some of the thesis section that has the same code*/
 .courses-container{
@@ -362,7 +356,6 @@ box-shadow: 1rem 1rem 1rem #4E4336;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 .class-content{
   display: flex;
@@ -373,7 +366,6 @@ box-shadow: 1rem 1rem 1rem #4E4336;
   padding-left: 2rem;
   padding-top: 2rem;
   max-width: 100%;
-
 }
 .class-title,.mobile-class{
   font-family: 'Ubuntu', sans-serif;
@@ -409,13 +401,13 @@ box-shadow: 1rem 1rem 1rem #4E4336;
   display:none;
 }
 @media only screen and (max-width:480px){
-.courses-container{
-  padding-left:0;
-  padding-right:0;
-}
-.courses-container h2{
-  margin-bottom: 2rem;
-}
+  .courses-container{
+    padding-left:0;
+    padding-right:0;
+  }
+  .courses-container h2{
+    margin-bottom: 2rem;
+  }
   .classes-container{
     display:none;
   }
@@ -459,7 +451,7 @@ box-shadow: 1rem 1rem 1rem #4E4336;
   background-color: #AE9477;
 }
 .thesisContent-container .video-container{
-margin: 0 3rem;
+  margin: 0 3rem;
 }
 .video-container .videoContent-Container{
   margin-top:3rem;
@@ -510,10 +502,9 @@ footer{
   }
   .terms{
     display: none;
-    }
-    .coyright{
-      margin-top:2rem;
-      margin-bottom:2rem;
+  }
+  .coyright{
+    margin-top:2rem;
+    margin-bottom:2rem;
     }
   }
-}
